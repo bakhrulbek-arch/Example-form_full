@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/blc_top.css">
+    <link rel="stylesheet" href="./style/blc_fix_form.css">
+    <link rel="stylesheet" href="./style/inf_screen.css">
+    <title>Example-form_full</title>
+</head>
+
+
+<body>
+
+    <div class="blc_fix_top">
+
+        <div class="form_title_top">
+            <h1>Example form</h1>
+            <div class="err_window" name="err_window">
+                <p>All: <span class="err_inf_all"></span></p>
+                <p>Need: <span id="need"></span></p>
+                <p>Success: <span class="suc">0</span>/<span class="err_inf_all"></span></p>
+                <p>Error: <span class="er_r">0</span>/<span class="err_inf_all"></span></p>
+            </div>
+        </div>
+
+        <form action="" name="archive">
+            <div class="blc_fix_main" name="blc_fix_main">
+
+                <div class="blc_fix_m_item">
+
+                    <div class="blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top need_set">Name</p>
+                            <input class="check all_need inp_set_check inp_v set_inp_v" type="text"
+                                placeholder="please fill fields" name="name">
+                            <img class="display_none" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set">Need to fill</p>
+                    </div>
+
+                    <div class="set blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top">Surname</p>
+                            <input class="inp_set_check inp_v set_inp_not" type="text" placeholder="please fill fields"
+                                name="surname">
+                            <img class="display_none" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set"></p>
+                    </div>
+                    <div class="set blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top need_set">Email adress</p>
+                            <input class="check all_need inp_set_check inp_v set_inp_v" type="email"
+                                placeholder="please fill fields" name="email">
+                            <img class="display_none" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set">Need to fill</p>
+                    </div>
+                    <div class="set blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top">Phone number</p>
+                            <input class="inp_set_check inp_v set_inp_not" type="tel"
+                                placeholder="+998 / please fill fields" name="phone">
+                            <img class="display_none" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set"></p>
+                    </div>
+                    <div class="set blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top">Your Mom’s name</p>
+                            <input class="inp_set_check inp_v set_inp_not" type="text" placeholder="desirable"
+                                name="mom_name">
+                            <img class="display_none" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set"></p>
+                    </div>
+                    <div class="set blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top">Your Pap’s name</p>
+                            <input class="inp_set_check inp_v set_inp_not" type="text" placeholder="desirable"
+                                name="pop_name">
+                            <img class="display_none" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set"></p>
+                    </div>
+                </div>
+
+                <div class="blc_fix_m_item">
+                    <div class="blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top need_set age">Age</p>
+                            <input class="check all_need inp_set_check inp_v set_inp_v" type="number"
+                                placeholder="please fill fields" name="age">
+                            <img class="display_none age" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set age">Need to fill</p>
+                    </div>
+                    <div class="set blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top need_set">About You</p>
+                            <input class="check all_need inp_set_check inp_v set_inp_v" type="text"
+                                placeholder="please fill fields" name="about">
+                            <img class="display_none" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set">Need to fill</p>
+                    </div>
+                    <div class="set blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top need_set">What is JavaScript?</p>
+                            <input class="check all_need inp_set_check inp_v set_inp_v" type="text"
+                                placeholder="please fill fields" name="js_info">
+                            <img class="display_none" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set">Need to fill</p>
+                    </div>
+                    <div class="set blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top need_set">What is HTML?</p>
+                            <input class="check all_need inp_set_check inp_v set_inp_v" type="text"
+                                placeholder="please fill fields" name="html_info">
+                            <img class="display_none" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set">Need to fill</p>
+                    </div>
+                    <div class="set blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top need_set">What is CSS?</p>
+                            <input class="check all_need inp_set_check inp_v set_inp_v" type="text"
+                                placeholder="please fill fields" name="css_info">
+                            <img class="display_none" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set">Need to fill</p>
+                    </div>
+                    <div class="set blc_fix_m_i">
+                        <div class="blc_inp">
+                            <p class="title_obj_inp_top">Your favourite car</p>
+                            <input class="inp_set_check inp_v set_inp_not" type="text" placeholder="desirable"
+                                name="fav_car">
+                            <img class="display_none" src="icon/error_warning.svg" alt="error">
+                        </div>
+                        <p class="title_obj_inp_bottom need_set"></p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="btn_form_save">Save changes</button>
+        </form>
+        <!-- <button class="base">basket</button> -->
+        <div class="load_blc">
+            <center>
+                <div id="load">
+
+                </div>
+            </center>
+        </div>
+        <div class="information_screen">
+
+            <div class="screen_inf_obj">
+                <button id="cls">Close</button>
+                <center>
+                    <h1>Received data</h1>
+                    <div class="user"></div>
+                </center>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./app/regex.js"></script>
+    <script src="./app/app.js"></script>
+</body>
+
+</html>
