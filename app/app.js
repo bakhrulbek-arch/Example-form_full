@@ -106,9 +106,13 @@ function submit() {
 
     console.log(user);
     for (let item in user) {
-        let p = document.createElement('p')
-        p.innerHTML = `${item}: ${user[item]}`
-        inf_update.append(p)
+        let h3 = document.createElement('h2')
+        let span = document.createElement('span')
+        span.style.color = 'green'
+
+        h3.innerHTML = `${item}: `
+        span.innerHTML = `${user[item]}`
+        inf_update.append(h3, span)
     }
 
     // inf_update.innerHTML = `Name: ${user.name} <br><br>Surname: ${user.surname}<br><br> Age: ${user.age} <br><br> Email: ${user.email} <br><br> Phone number: ${user.phone} <br><br> Your Mom’s name: ${user.mom_name} <br><br> Your Pap’s name: ${user.pop_name} <br><br> About You: ${user.about} <br><br> What is JavaScript?: ${user.js_info} <br><br> What is HTML?: ${user.html_info} <br><br> What is CSS?: ${user.css_info} <br><br> Your favourite car: ${user.fav_car}`
